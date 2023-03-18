@@ -23,7 +23,7 @@ function setup() {
   textSize(64);
   textAlign(CENTER, CENTER);
 
-  let wordList = ['acai', 'tongue', 'rio', 'saopaulo', 'beach', 'sex', 'love', 'pedro', 'stef', 'mouth', 'smell', 'fish', 'beauty'];
+  let wordList = ['acai', 'tongue', 'rio', 'saopaulo', 'beach', 'pedro', 'stef', 'mouth', 'smell', 'fish', 'beauty', 'pinacoteca', 'art'];
   let randomSentences = generateRandomSentences(1, wordList);
   inputWords = randomSentences.split(' ');
 
